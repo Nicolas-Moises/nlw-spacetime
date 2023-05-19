@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import logoNlw from '../assets/nlw-logo.svg'
 import Image from 'next/image'
 
@@ -16,12 +17,12 @@ export function Hero() {
         </p>
       </div>
 
-      <a
-        href=""
+      <Link
+        href="/memories/new"
         className="inline-block rounded-full bg-green-500 px-5 py-3 font-alt uppercase leading-none text-black transition-colors hover:bg-green-400"
       >
         Cadastrar lembrança
-      </a>
+      </Link>
     </div>
   )
 }
